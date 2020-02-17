@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Winberg LLC
-image: /img/law-lady.webp
+image: /img/law-lady.jpg
 heading: Heading
 subheading: Legal Expertise You Can Rely On
 mainpitch:
