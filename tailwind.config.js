@@ -16,7 +16,7 @@ module.exports = {
         "blue-800": "#0A558C",
         "blue-900": "#003E6B",
         "blue-1000": "hsl(205, 100%, 15%)",
-        "blue-1100": "hsl(205, 100%, 10%)",
+        "blue-1100": "hsl(205, 100%, 10%)", //#001E33
 
         "yellow-050": "#FFFAEB",
         "yellow-100": "#FCEFC7",
@@ -25,7 +25,7 @@ module.exports = {
         "yellow-400": "#F7D070",
         "yellow-500": "#E9B949",
         "yellow-600": "#C99A2E",
-        "yellow-700": "#A27C1A",
+        "yellow-700": "#A27C1A", // Gold
         "yellow-800": "#7C5E10",
         "yellow-900": "#513C06",
 
