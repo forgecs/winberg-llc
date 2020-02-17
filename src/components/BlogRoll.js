@@ -34,7 +34,7 @@ class BlogRoll extends React.Component {
                   ) : null}
                   <p className="flex items-start flex-col px-4 py-6">
                     <Link
-                      className="font-bold text-cyan-400 hover:text-cyan-600"
+                      className="font-bold text-blue-400 hover:text-blue-600"
                       to={post.fields.slug}
                     >
                       {post.frontmatter.title}
@@ -50,7 +50,7 @@ class BlogRoll extends React.Component {
                   <br />
                   <br />
                   <Link
-                    className="font-semibold text-cyan-700 px-4 py-2 rounded border-2 border-cyan-400 hover:bg-cyan-400 hover:text-blue-grey-100"
+                    className="font-semibold text-blue-700 px-4 py-2 rounded border-2 border-blue-400 hover:bg-blue-400 hover:text-blue-grey-100"
                     to={post.fields.slug}
                   >
                     Keep Reading →

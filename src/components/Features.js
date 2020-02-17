@@ -3,9 +3,12 @@ import PropTypes from "prop-types";
 import PreviewCompatibleImage from "../components/PreviewCompatibleImage";
 
 const FeatureGrid = ({ gridItems }) => (
-  <div className="flex justify-center flex-wrap bg-black border-b border-blue-grey-900 pb-16 mt-10 mx-auto">
+  <div className="flex justify-center flex-wrap bg-gray-100 border-b border-blue-grey-900 pb-16 mt-10 mx-auto">
     {gridItems.map(item => (
-      <div key={item.text} className="bg-blue-grey-900  max-w-sm rounded shadow-lg mt-10 mx-5">
+      <div
+        key={item.text}
+        className="bg-blue-grey-900  max-w-sm rounded shadow-lg mt-10 mx-5"
+      >
         <section className="section px-4 mt-4">
           <div className="text-center">
             <div

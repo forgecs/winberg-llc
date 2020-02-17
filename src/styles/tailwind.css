@@ -27,7 +27,7 @@
 }
 
 .about a {
-  @apply text-cyan-500 font-semibold;
+  @apply text-blue-500 font-semibold;
 }
 
 .about strong a {
@@ -43,15 +43,15 @@
 }
 
 .about code {
-  @apply font-mono text-sm inline text-cyan-400 px-1;
+  @apply font-mono text-sm inline text-blue-400 px-1;
 }
 
 .about pre code {
-  @apply block bg-black p-4 rounded;
+  @apply block bg-gray-100 p-4 rounded;
 }
 
 .about blockquote {
-  @apply border-l-4 border-cyan-400 pl-4 italic;
+  @apply border-l-4 border-blue-400 pl-4 italic;
 }
 
 .about ul {
@@ -87,7 +87,7 @@
 }
 
 .markdown a {
-  @apply text-cyan-500 font-semibold;
+  @apply text-blue-500 font-semibold;
 }
 
 .markdown strong a {
@@ -103,15 +103,15 @@
 }
 
 .markdown code {
-  @apply font-mono text-sm inline text-cyan-400 px-1;
+  @apply font-mono text-sm inline text-blue-400 px-1;
 }
 
 .markdown pre code {
-  @apply block bg-black p-4 rounded;
+  @apply block bg-gray-100 p-4 rounded;
 }
 
 .markdown blockquote {
-  @apply border-l-4 border-cyan-400 pl-4 italic;
+  @apply border-l-4 border-blue-400 pl-4 italic;
 }
 
 .markdown ul {

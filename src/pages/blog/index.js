@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../../components/Layout'
-import BlogRoll from '../../components/BlogRoll'
+import Layout from "../../components/Layout";
+import BlogRoll from "../../components/BlogRoll";
 
 export default class BlogIndexPage extends React.Component {
   render() {
@@ -14,15 +14,14 @@ export default class BlogIndexPage extends React.Component {
             height: `26rem`
           }}
         >
-          <h1 className="text-blue-grey-050 text-3xl sm:text-5xl font-bold px-6 py-4"
-          >
+          <h1 className="text-blue-grey-050 text-3xl sm:text-5xl font-bold px-6 py-4">
             Blog
           </h1>
         </section>
-        <section className="bg-black flex justify-center items-center">
-              <BlogRoll />
+        <section className="bg-gray-100 flex justify-center items-center">
+          <BlogRoll />
         </section>
       </Layout>
-    )
+    );
   }
 }

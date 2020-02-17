@@ -26,16 +26,19 @@ export const IndexPageTemplate = ({
       }}
     >
       <div className="h-full flex flex-col justify-center items-center">
-        <h1 className="text-blue-grey-050 text-3xl sm:text-5xl font-bold px-4 py-2">
+        <h1 className="text-blue-grey-050 text-3xl sm:text-5xl px-4 py-2">
           {title}
         </h1>
-        <h3 className="text-blue-grey-050 text-lg sm:text-xl font-semibold px-2 py-1 mt-5">
+        <h3 className="text-blue-grey-050 text-lg sm:text-xl px-2 py-1 mt-5">
           {subheading}
         </h3>
+        <Link className="text-blue-grey-050 hover:text-black font-thin bg-black hover:bg-blue-grey-050 border border-blue-grey-050 mt-8 px-8 py-2" to="/contact">
+          Free Consultation
+        </Link>
       </div>
     </section>
 
-    <section className="bg-black py-16">
+    {/* <section className="bg-gray-100 py-16">
       <div className="flex flex-col justify-center items-center px-4">
         <h1 className="font-bold text-blue-grey-200 text-xl">
           {mainpitch.title}
@@ -62,13 +65,13 @@ export const IndexPageTemplate = ({
         <BlogRoll />
 
         <Link
-          className="font-semibold text-gray-100 sm:text-lg bg-cyan-500 px-4 py-2 sm:px-5 sm:py-3 rounded mt-10 hover:bg-cyan-600 focus:bg-cyan-600"
+          className="font-semibold text-gray-100 sm:text-lg bg-blue-500 px-4 py-2 sm:px-5 sm:py-3 rounded mt-10 hover:bg-blue-600 focus:bg-blue-600"
           to="/blog"
         >
           Read More
         </Link>
       </div>
-    </section>
+    </section> */}
   </div>
 );
 

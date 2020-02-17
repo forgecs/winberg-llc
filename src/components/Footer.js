@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import logo from "../img/logo-sm.jpg";
 import facebook from "../img/social/facebook.svg";
 import instagram from "../img/social/instagram.svg";
 import twitter from "../img/social/twitter.svg";
@@ -9,85 +8,97 @@ import twitter from "../img/social/twitter.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="text-cyan-400 bg-black font-semibold border-t border-blue-grey-900 flex flex-col sm:flex-row  sm:justify-around sm:items-center">
-        <div className="w-24 border rounded-lg overflow-hidden border-cyan-400 mt-10 mx-auto sm:mx-0 sm:mt-0">
-          <img
-            src={logo}
-            alt="Excellent Tech Solutions"
-            // style={{ width: "12em", height: "8em" }}
-          />
+      <footer className="text-yellow-700 bg-blue-1100 font-thin border-t border-blue-grey-900  py-5">
+        <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center">
+          <div className="mx-auto sm:mx-0">
+            <h1 className="font-serif text-3xl border border-yellow-700 leading-none p-1">
+              W
+            </h1>
+          </div>
+          <section className="mt-10 sm:mt-0">
+            <ul className="flex flex-col sm:flex-row justify-center items-center sm:px-20">
+              <li>
+                <Link
+                  to="/"
+                  className="block px-5 mt-1 sm:mt-0 hover:bg-blue-grey-900 hover:text-yellow-500 focus:outline-none focus:bg-blue-grey-900 rounded"
+                >
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="block px-5 mt-1 sm:mt-0 hover:bg-blue-grey-900 hover:text-yellow-500 focus:outline-none focus:bg-blue-grey-900 rounded"
+                  to="/about"
+                >
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="block px-5 mt-1 sm:mt-0 hover:bg-blue-grey-900 hover:text-yellow-500 focus:outline-none focus:bg-blue-grey-900 rounded"
+                  to="/services"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="block px-5 mt-1 sm:mt-0 hover:bg-blue-grey-900 hover:text-yellow-500 focus:outline-none focus:bg-blue-grey-900 rounded"
+                  to="/contact"
+                >
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </section>
+          <div className="flex justify-around py-10">
+            <a
+              title="facebook"
+              className="bg-yellow-700 p-1 hover:bg-yellow-500 focus:bg-yellow-500 focus:outline-none"
+              href="https://facebook.com"
+            >
+              <img
+                src={facebook}
+                alt="Facebook"
+                style={{ width: "2em", height: "2em" }}
+              />
+            </a>
+            <a
+              title="twitter"
+              className="bg-yellow-700 p-1 hover:bg-yellow-500 focus:bg-yellow-500 focus:outline-none sm:mx-2"
+              href="https://twitter.com"
+            >
+              <img
+                className="fas fa-lg"
+                src={twitter}
+                alt="Twitter"
+                style={{ width: "2em", height: "2em" }}
+              />
+            </a>
+            <a
+              title="instagram"
+              className="bg-yellow-700 p-1 hover:bg-yellow-500 focus:bg-yellow-500 focus:outline-none"
+              href="https://instagram.com"
+            >
+              <img
+                src={instagram}
+                alt="Instagram"
+                style={{ width: "2em", height: "2em" }}
+              />
+            </a>
+          </div>
         </div>
-        <section className="mt-10 sm:mt-0">
-          <ul className="flex flex-col justify-center items-center">
-            <li>
-              <Link
-                to="/"
-                className="rounded hover:text-cyan-700 focus:text-cyan-700 focus:outline-none px-2 py-1"
-              >
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="rounded hover:text-cyan-700 focus:text-cyan-700 focus:outline-none px-2 py-1"
-                to="/about"
-              >
-                About
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="rounded hover:text-cyan-700 focus:text-cyan-700 focus:outline-none px-2 py-1"
-                to="/blog"
-              >
-                Latest Stories
-              </Link>
-            </li>
-            <li>
-              <Link
-                className="rounded hover:text-cyan-700 focus:text-cyan-700 px-2 py-1"
-                to="/contact"
-              >
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </section>
-        <div className="flex justify-around py-10">
-          <a
-            title="facebook"
-            className="bg-cyan-200 p-3 hover:bg-cyan-400 focus:bg-cyan-400 focus:outline-none rounded"
-            href="https://facebook.com"
-          >
-            <img
-              src={facebook}
-              alt="Facebook"
-              style={{ width: "1em", height: "1em" }}
-            />
-          </a>
-          <a
-            title="twitter"
-            className="bg-cyan-200 p-3 hover:bg-cyan-400 focus:bg-cyan-400 focus:outline-none rounded sm:mx-2"
-            href="https://twitter.com"
-          >
-            <img
-              className="fas fa-lg"
-              src={twitter}
-              alt="Twitter"
-              style={{ width: "1em", height: "1em" }}
-            />
-          </a>
-          <a
-            title="instagram"
-            className="bg-cyan-200 p-3 hover:bg-cyan-400 focus:bg-cyan-400 focus:outline-none"
-            href="https://instagram.com"
-          >
-            <img
-              src={instagram}
-              alt="Instagram"
-              style={{ width: "1em", height: "1em" }}
-            />
-          </a>
+        <div className="text-center">
+          <div> © {new Date().getFullYear()} Winberg LLC</div>
+          <div>
+            Built by{" "}
+            <a
+              className="font-semibold hover:text-yellow-500"
+              href="https://www.forgecs.com/"
+            >
+              Forge Creative Systems
+            </a>
+          </div>
         </div>
       </footer>
     );
