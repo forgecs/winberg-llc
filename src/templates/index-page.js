@@ -32,7 +32,7 @@ export const IndexPageTemplate = ({
         <h3 className="text-blue-grey-050 text-lg sm:text-xl px-2 py-1 mt-5">
           {subheading}
         </h3>
-        <Link className="text-blue-grey-050 hover:text-black font-thin bg-black hover:bg-blue-grey-050 border border-blue-grey-050 mt-8 px-8 py-2" to="/contact">
+        <Link className="text-blue-grey-050 hover:text-blue-grey-900 bg-blue-grey-900 hover:bg-white mt-8 px-8 py-2" to="/contact">
           Free Consultation
         </Link>
       </div>

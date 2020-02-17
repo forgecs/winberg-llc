@@ -1,13 +1,17 @@
-import React from 'react'
-import Layout from '../../components/Layout'
+import React from "react";
+import Layout from "../../components/Layout";
 
 const ServicesPage = () => (
   <Layout>
-    <div>
-      <h1>Services Page</h1>
-      <p>These are some services we offer.</p>
-    </div>
+    <section className="bg-blue-grey-050 pt-10">
+      <div className="flex flex-col items-center">
+        <h1 className="font-serif text-blue-grey-900 text-2xl sm:text-4xl">
+          Services
+        </h1>
+        <div className="w-full max-w-xs sm:max-w-sm px-4 pb-16 mt-10"></div>
+      </div>
+    </section>
   </Layout>
-)
+);
 
-export default ServicesPage
+export default ServicesPage;

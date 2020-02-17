@@ -8,15 +8,21 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
 
   return (
-    <section className="bg-gray-100 text-blue-grey-200">
-      <div className="max-w-xl px-4 mx-auto py-16">
-        <h2 className="font-bold text-2xl sm:text-4xl">{title}</h2>
-        <PageContent
-          className="about content text-blue-grey-200"
-          content={content}
-        />
+    <div>
+
+    <section className="bg-blue-grey-050 pt-10">
+      <div className="flex flex-col items-center">
+        <h1 className="font-serif text-blue-grey-900 text-2xl sm:text-4xl">
+          About Winberg LLC
+        </h1>
+        <div className="w-full max-w-xs sm:max-w-sm px-4 pb-16 mt-10"></div>
       </div>
     </section>
+    
+    <section>
+
+    </section>
+    </div>
   );
 };
 
