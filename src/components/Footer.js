@@ -8,7 +8,7 @@ import twitter from "../img/social/twitter.svg";
 const Footer = class extends React.Component {
   render() {
     return (
-      <footer className="text-yellow-700 bg-blue-1100 font-thin border-t border-blue-grey-900  py-5">
+      <footer className="text-yellow-700 bg-blue-1100 border-t border-blue-grey-900  py-5">
         <div className="flex flex-col sm:flex-row sm:justify-center sm:items-center">
           <div className="mx-auto sm:mx-0">
             <h1 className="font-serif text-3xl border border-yellow-700 leading-none p-1">
