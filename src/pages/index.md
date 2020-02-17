@@ -1,9 +1,9 @@
 ---
 templateKey: index-page
-title: Website Title
-image: /img/home-jumbotron.jpg
-heading: Website Heading
-subheading: Website Subheading
+title: Winberg LLC
+image: /img/law-lady.webp
+heading: Heading
+subheading: Legal Expertise You Can Rely On
 mainpitch:
   title: Main Pitch Title
   description: |
